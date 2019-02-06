@@ -17,4 +17,11 @@ Step-by-step guide to run this locally on macOS:
 
 4. It might be necessary to give the executable file `RefFinder.command` the proper permission for it to run. To do this, open the `Terminal`, navigate to the root of the unzipped files from step 3 and type in: `chmod u+x RefFinder.command`
 
-5. Double-click `RefFinder.command`. Your default browser should open with RefFinder running.
+5. Double-click `RefFinder.command`. Your default browser should open with RefFinder running. Enjoy!
+
+NOTE:
+After running `RefFinder.command` the server will be running in the background so there's no need to run this file again. Instead you can just navigate to http://localhost to have access to `RefFinder`. In order to manually close the server running in the background you can open a `Terminal` and enter the following commands:
+1. `docker stop apache`
+2. `docker stop php`
+
+After you ran these commands, you have to run `RefFinder.command` again to use the software.
