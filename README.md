@@ -6,3 +6,15 @@ If you have a server to host it. Please share your link to other people.
 Thanks!
 
 
+Step-by-step guide to run this locally on macOS:
+
+1. Download and install Docker locally:
+--> https://docs.docker.com/docker-for-mac/install/
+
+2. Download this repository from the top right corner under "Clone or download"
+
+3. Unpack the zip file.
+
+4. It might be necessary to give the executable file `RefFinder.command` the proper permission for it to run. To do this, open the `Terminal`, navigate to the root of the unzipped files from step 3 and type in: `chmod u+x RefFinder.command`
+
+5. Double-click `RefFinder.command`. Your default browser should open with RefFinder running.
